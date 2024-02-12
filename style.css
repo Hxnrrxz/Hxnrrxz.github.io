@@ -1,0 +1,174 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+ * {
+     margin: 0;
+ }
+
+ /* body {
+    background-image: url(001.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+} */
+ a {
+     text-decoration: none;
+ }
+
+ .b {
+     background-image: url(001.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+     width: 100%;
+ }
+
+ .BE {
+     background: rgba(0, 0, 0, 0.692);
+     backdrop-filter: blur(40px);
+     height: 100%;
+ }
+
+ .loo {
+     height: 80px;
+ }
+
+ .lo {
+     height: auto;
+
+     .lo1 {
+         width: 110px;
+         height: 110px;
+         margin: 0 auto;
+         border-radius: 50%;
+         background-image: url(001.jpg);
+         background-size: 100%;
+         transition: 0.6s;
+
+
+     }
+
+     .lo1:hover {
+         width: 120px;
+         height: 120px;
+     }
+
+     .lot {
+         font-size: 30px;
+         color: white;
+         text-align: center;
+         margin: 8px;
+         font-family: 'Lilita One', sans-serif;
+     }
+
+
+
+ }
+
+ .sog {
+     margin: 10px;
+     padding: 10px;
+
+     .sog1 {
+         background-color: rgba(22, 22, 22, 0.719);
+         max-width: 600px;
+         height: auto;
+         margin: 0 auto;
+         border-radius: 7px;
+         box-shadow: 0px 0px 0px rgba(138, 128, 128, 0.123);
+         transition: 0.5s;
+
+         .sogg {
+             width: auto;
+             height: auto;
+             display: flex;
+             padding: 10px;
+             align-items: center;
+
+             .sogm {
+                 width: 50px;
+                 height: 50px;
+                 background-image: url(OIP.jpg);
+                 background-repeat: no-repeat;
+                 background-position: center;
+                 background-size: cover;
+                 border-radius: 5px;
+             }
+
+             .sogt {
+                 width: 90%;
+
+                 .t {
+                     text-align: center;
+                     color: #ffffff;
+                 }
+
+             }
+
+         }
+     }
+
+     .sog1:hover {
+         max-width: 620px;
+         height: auto;
+         box-shadow: 0px 0px 6px rgba(138, 128, 128, 0.123);
+     }
+ }
+
+ .icon {
+     width: auto;
+     height: auto;
+     margin: 0px 70px;
+
+     .icon1 {
+         max-width: 200px;
+         height: auto;
+         margin: 0 auto;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+
+         .icon01 {
+             width: 50px;
+             height: 50px;
+             background-image: url(fb.png);
+             background-size: cover;
+             margin: 5px;
+             transition: 0.2s;
+         }
+
+         .icon02 {
+             width: 40px;
+             height: 40px;
+             background-image: url(ig.png);
+             background-size: cover;
+             margin: 5px;
+             transition: 0.2s;
+         }
+
+         .icon03 {
+             width: 35px;
+             height: 40px;
+             background-image: url(tt.png);
+             background-size: cover;
+             margin: 5px;
+             transition: 0.2s;
+         }
+
+         .icon01:hover {
+             width: 55px;
+             height: 55px;
+         }
+
+         .icon02:hover {
+             width: 45px;
+             height: 45px;
+         }
+
+         .icon03:hover {
+             width: 40px;
+             height: 45px;
+         }
+
+
+     }
+ }
